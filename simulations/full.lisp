@@ -1,3 +1,4 @@
+(in-package :nbody)
 (setf (gethash 'sun system) (make-body :position '(0 0 0.0) :velocity '(0 0 0) :mass +solar-mass+))
 {p jupiter 5.20336301d0  0.04839266d0 1.30530  100.55615 14.75385  34.40438  0.03769367578941243d0}
 {p saturn  9.53707032d0  0.05415060d0 2.48446  113.71504 92.43194  49.94432  0.01128632555889845d0}
