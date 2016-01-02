@@ -1,6 +1,6 @@
 # nbody
 
-This is a simple gravitational n-body simulator <sup>[1](#note1)</sup> able to simulate the motion
+This is a simple gravitational n-body simulator<sup>[1](#note1)</sup> able to simulate the motion
 of the planets in our solar system.  Simulations are initialized from a file
 containing Keplerian elements describing the position of each planetary
 body. For example,
@@ -15,7 +15,7 @@ body. For example,
 
 
 This initializes the sun to be at the center with the four major planets
-described as keplerian elements <sup>[2](#note2)</sup>:
+described as keplerian elements<sup>[2](#note2)</sup>:
 
     {p name semi-major-axis eccentricity inclination longitude-of-ascending-node longitude-of-perihelion mean-anomaly mass}
 
@@ -57,7 +57,7 @@ The plot function requires a GL-enabled R environment to be installed (package
 "r-base-core" in Ubuntu), and produces a fully interactive plot window that
 allows rotating, zooming, and panning:
 
-# ![Major planets](doc/major.png)
+# ![Major planets](https://raw.github.com/jlowder/nbody/master/doc/major.png)
 
 <a name="note1">1</a>: This started as a port from python to common lisp of nbody.py from "The
     Computer Language Benchmarks Game" at <http://shootout.alioth.debian.org>, but
