@@ -53,9 +53,10 @@ The simulation itself is performed using an interactive text prompt. Example:
     
     
 
-The plot function requires a GL-enabled R environment to be installed (package
-"r-base-core" in Ubuntu), and produces a fully interactive plot window that
-allows rotating, zooming, and panning:
+The plot function requires a GL-enabled R environment to be installed
+(package "r-base-core" and "r-cran-rgl" in Ubuntu), and produces a
+fully interactive plot window that allows rotating, zooming, and
+panning:
 
 # ![Major planets](https://raw.github.com/jlowder/nbody/master/doc/major.png)
 
