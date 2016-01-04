@@ -8,5 +8,6 @@
     :depends-on (:cl-ppcre
                  :prompt
                  :6e)
-    :components ((:file "reader")
-                 (:file "nbody" :depends-on ("reader"))))
+    :components ((:module "src"
+                          :components ((:file "reader")
+                                       (:file "nbody" :depends-on ("reader"))))))
