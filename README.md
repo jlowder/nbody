@@ -1,5 +1,9 @@
 # nbody
 
+Gravitational N-body simulator in CL.
+
+## Overview
+
 This is a simple gravitational n-body simulator<sup>[1](#note1)</sup> able to simulate the motion
 of the planets in our solar system.  Simulations are initialized from a file
 containing Keplerian elements describing the position of each planetary
@@ -23,6 +27,8 @@ Semi-major-axis is in astronomical units. Inclination, longitude-of-perihelion,
 longitude-of-perihelion, and mean-anomaly are in degrees. Mass is
 relative to the mass of the sun, where the mass of the sun is defined
 as 4 * pi * pi.
+
+## Usage
 
 The simulation itself is performed using an interactive text prompt. Example:
 
@@ -59,6 +65,10 @@ fully interactive plot window that allows rotating, zooming, and
 panning:
 
 # ![Major planets](https://raw.github.com/jlowder/nbody/master/doc/major.png)
+
+## License
+
+MIT
 
 <a name="note1">1</a>: This started as a port from python to common lisp of nbody.py from "The
     Computer Language Benchmarks Game" at <http://shootout.alioth.debian.org>, but
